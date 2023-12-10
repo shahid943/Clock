@@ -67,3 +67,11 @@ body {
     height: var(--h);
     border-radius: 8px;
 }
+.dot {
+    display: block;
+    justify-content: center;
+    position: absolute;
+    transform: rotate(calc(30deg));
+    text-align: center;
+    inset: 15px;
+}
